@@ -1,3 +1,7 @@
+/*A: body-e vermek evezine 
+*{
+ box-sizing: border-box;
+}  */
 body{
     box-sizing: border-box;
     padding: 0;
@@ -64,6 +68,7 @@ button:hover{
     position:absolute;
     top: 70px;
     left: 110px;
+    /*A: calc() ehtiyac yoxdu      */
     opacity: calc(0.6);
 }
 .face img{
@@ -71,10 +76,12 @@ button:hover{
     position:absolute;
     top: 68px;
     left: 140px;
+    /*A: calc() ehtiyac yoxdu      */
     opacity: calc(0.8);
 }
 .tagline{
     margin: 300px auto;
+    /*A: url("") dirnaq icinde yaz zehmet olmasa       */
     background-image: url(./table.png);
     opacity: 0.9;
     width: 90%;
