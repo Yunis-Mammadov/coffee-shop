@@ -1,0 +1,150 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin:  0;
+    background-image: linear-gradient(rgba(222,174,116,0.6),rgba(222,174,116,0.6)),url(./lifeofa.jpg);
+}
+
+.black{
+    border: 3px solid black;
+    background-color: black;
+    padding: 20px;
+}
+
+li,a,button{
+   font-family: 'Dancing Script', cursive;
+   font-weight: 400;
+   font-size: 23px;
+   text-decoration: none;
+   
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./tenor.gif);
+    width: 90%;
+    height: 100vh;
+    background-size: cover;
+    background-position:left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 5%;
+    margin: 0;
+}
+.nav_container{
+    list-style: none;
+}
+.nav_container li{
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+    bottom: 360px;
+}
+.nav_container li a{
+    color: rgb(143, 97, 40);
+    transition: all 0.3 ease-in-out 0s;
+}
+.nav_container li a:hover{
+    color: rgb(236, 200, 153);
+}
+button{
+    padding: 8px 14px 8px 11px;
+    background-color: rgb(222, 174, 116) ;
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+    transition: all 0.3 ease-in 0s;
+    position: relative;
+    bottom: 360px;
+}
+button:hover{
+    color: white;
+}
+.insta img{
+    width: 20px;
+    position:absolute;
+    top: 70px;
+    left: 110px;
+    opacity: calc(0.6);
+}
+.face img{
+    width: 25px;
+    position:absolute;
+    top: 68px;
+    left: 140px;
+    opacity: calc(0.8);
+}
+.tagline{
+    margin: 300px auto;
+    background-image: url(./table.png);
+    opacity: 0.9;
+    width: 90%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+.tagline p{
+    font-family: 'Dancing Script', cursive; ;
+    font-size: 50px;
+    text-align: center;
+    padding: 80px;
+    color: white;
+}
+
+.pvisit p{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 35px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    color: rgb(153, 92, 18);
+    transition: all 0.3 ease-in 0s;
+    position: relative;
+    top: 10px;
+    /* cursor: pointer; */
+}
+
+/* .pvisit p:hover{
+    color: rgb(192, 132, 54);
+} */
+
+
+.loc img{
+    width: 40px;
+    position: relative;
+    bottom: 56px;
+    left: 830px;
+    opacity: 0.9;
+}
+
+.visit-container{
+    display: flex;
+}
+
+.visit-container img{
+    bottom: 50px;
+}
+
+.str img{
+    width: 70%;   
+    position: relative;
+    left: 70px;
+    opacity: 0.9;
+    
+}
+.res img{
+    width: 100%;
+    position: relative;
+    right: 20px;
+    opacity: 0.9;
+}
+.live img{
+    width: 73%;
+    position: relative;
+    left: 80px;
+    opacity: 0.9;
+}
+
+                                /* MENU _ */
+
